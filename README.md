@@ -1,4 +1,4 @@
-# FATIH_ARSLANCAN_CASE — Robot Framework Automation Project
+# Robot Framework Automation Project
 
 This repository demonstrates a mixed **API + UI** test automation setup with **Robot Framework**.  
 - **API tests** use `RequestsLibrary`.  
