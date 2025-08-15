@@ -7,40 +7,6 @@ This repository demonstrates a mixed **API + UI** test automation setup with **R
 
 There is also a load-testing note for an **n11 search** scenario (see “Load Testing” below).
 
----
-## Project Structure
-├─ Keywords/
-│ ├─ API/
-│ │ ├─ Keyword_API_Base.resource # HTTP wrappers (GET/POST/PUT/DELETE, session)
-│ │ └─ Keyword_API_Validate.resource # API validations & higher-level keywords
-│ ├─ FE/
-│ │ ├─ Keyword_FE_Base.robot # Common UI keywords (built on SeleniumLibrary)
-│ │ ├─ Keyword_Driver.robot # Browser bootstrap/teardown
-│ │ └─ Keyword_Career.robot # Insider Careers flow
-│ └─ Utils/
-│ └─ TextLogger.resource # Emoji text logging to <output>/logs/log_YYYYMMDD.log
-│
-├─ Lib/
-│ └─ utility.py # Optional Python helpers
-│
-├─ Object_Repository/
-│ └─ Obj_Library_InsiderHome.resource # UI locators
-│
-├─ Resources/
-│ ├─ Properties.resource # Shared variables (API_BASE, timeouts, URLs)
-│ └─ Assets/
-│ └─ pet.jpg # Sample asset (image upload test)
-│
-├─ Tests/
-│ ├─ API/
-│ │ └─ TC_API.robot # PetStore (Swagger) API scenarios
-│ └─ FE/
-│ └─ TC_FE.robot # Insider Careers UI scenarios
-│
-├─ logs/ # Runtime text logs (created automatically)
-├─ run_tests.ps1 # Example PowerShell runner
-├─ requirements.txt
-└─ README.md
 
 
 > **Load Testing:** A `LoadTest/` folder (not shown here) contains a **JMeter** `.jmx` for the **n11 search functionality**, plus the related **CSV** data file(s) and **HTML** reports.
@@ -49,7 +15,6 @@ There is also a load-testing note for an **n11 search** scenario (see “Load Te
 
 ## Setup
 
-```bash
 # 1) (Recommended) Create a virtual environment
 python -m venv .venv
 # Windows
