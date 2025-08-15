@@ -1,0 +1,13 @@
+# --- Core ---
+robotframework
+
+# --- API testing ---
+robotframework-requests
+
+# --- FE testing 
+robotframework-browser
+
+# --- Parallel runner 
+robotframework-pabot
+
+# robotframework-ScreenCapLibrary

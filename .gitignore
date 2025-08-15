@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Robot Framework outputs
+results/
+logs/
+output.xml
+report.html
+log.html
+*.png
+*.webm
+*.mp4
+*.gif
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Selenium/Browser caches
+.cache/
