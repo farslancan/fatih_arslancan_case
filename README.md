@@ -1,75 +1,83 @@
-# Robot Framework Automation Project
+Robot Framework Automation Project
 
-This repository demonstrates a mixed **API + UI** test automation setup with **Robot Framework**.  
-- **API tests** use `RequestsLibrary`.  
-- **UI tests** use `SeleniumLibrary`.  
-- A lightweight text logger writes emoji-enhanced lines to a rotating log file per run.
+This repository demonstrates a combined API and UI test automation setup using Robot Framework.
 
-There is also a load-testing note for an **n11 search** scenario (see “Load Testing” below).
+API Testing: Implemented with RequestsLibrary.
 
+UI Testing: Implemented with SeleniumLibrary.
 
+Logging: A lightweight logger writes detailed execution logs to a rotating file per run.
 
-> **Load Testing:** A `LoadTest/` folder (not shown here) contains a **JMeter** `.jmx` for the **n11 search functionality**, plus the related **CSV** data file(s) and **HTML** reports.
+Load Testing: An additional JMeter-based scenario is provided for performance validation.
+************************************************************************************
 
----
+Project Structure
+.
+├── Tests/               # Test suites
+│   ├── API/             # API test cases
+│   └── FE/              # UI test cases
+├── Resources/           # Shared resources and variables
+│   └── Properties.resource
+├── results/             # Test execution reports
+├── requirements.txt     # Project dependencies
+└── LoadTest/            # JMeter load testing assets (excluded from repo)
+************************************************************************************
 
-## Setup
+Setup
+1. Create a virtual environment: python -m venv .venv
+2. 2. Install dependencies: pip install -r requirements.txt
 
-# 1) (Recommended) Create a virtual environment
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
+************************************************************************************
 
-# 2) Install dependencies
-pip install -r requirements.txt
-
-## Running Tests
-
-Run from the repo root.
-
-All tests
+Running Tests
+Run all tests
 robot -d results --timestampoutputs Tests
 
-Only API tests
+Run only API tests
 robot -d results --timestampoutputs Tests/API
 
-Only UI tests
+Run only UI tests
 robot -d results --timestampoutputs Tests/FE
 
-Tag filtering examples
-# API tags include: GET, POST, endpoint_pet, endpoint_findByStatus, negative, positive, smoke, bug
+Run by tag
+# Examples:
 robot -d results -i GET Tests/API
 robot -d results -i endpoint_pet Tests/API
 robot -d results -i negative Tests/API
 
-Parallel (optional)
+Run in parallel (optional)
 pabot --outputdir results --processes 4 Tests
 
+************************************************************************************
 
-Central Variables
+Shared variables are defined in Resources/Properties.resource:
 
-Shared variables live in Resources/Properties.resource:
+API_BASE — Base URL for PetStore Swagger (e.g., https://petstore.swagger.io/v2)
 
-API_BASE — PetStore Swagger base URL (e.g. https://petstore.swagger.io/v2)
+REQUEST_TIMEOUT — HTTP request timeout value
 
-REQUEST_TIMEOUT — HTTP request timeout
+BASE_INSIDER_URL — Root URL for Insider website
 
-BASE_INSIDER_URL — Insider website root
+BASE_INSIDER_CAREER_QA_URL — Careers QA page URL
 
-BASE_INSIDER_CAREER_QA_URL — Insider Careers QA page URL
+************************************************************************************
+Load Testing (JMeter)
 
+A LoadTest/ folder (not included in the repository) contains:
 
-
-## Load Testing (JMeter)
-
-A LoadTest/ folder (not included here) contains:
-
-*.jmx for n11 search functionality
+JMeter .jmx file for n11 search functionality
 
 CSV data files
 
 Exported HTML reports
 
-You can open the JMX in Apache JMeter and run the load scenario; results can be viewed through the provided HTML report or JMeter UI.
+The .jmx file can be opened in Apache JMeter to execute the load scenario.
+Results may be analyzed through the provided HTML report or directly within the JMeter UI.
+
+
+
+
+
+
+
+
