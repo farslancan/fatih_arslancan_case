@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755365755903,135,SearchShoePositive,200,OK,Users 1-1,text,true,,634165,113,1,1,https://www.n11.com/arama?q=ayakkabi,82,0,47
+1755365756104,102,SearchShoePositive,200,OK,Users 1-2,text,true,,634932,113,2,2,https://www.n11.com/arama?q=ayakkabi,54,0,20
+1755365756310,104,SearchShoePositive,200,OK,Users 1-3,text,true,,634202,113,3,3,https://www.n11.com/arama?q=ayakkabi,59,0,31
+1755365756505,109,SearchShoePositive,200,OK,Users 1-4,text,true,,634123,113,4,4,https://www.n11.com/arama?q=ayakkabi,59,0,36
+1755365756039,696,SearchShoePagination,200,OK,Users 1-1,text,true,,607186,123,5,5,https://www.n11.com/arama?q=ayakkabı&pg=2,644,0,0
+1755365756207,658,SearchShoePagination,200,OK,Users 1-2,text,true,,607227,123,5,5,https://www.n11.com/arama?q=ayakkabı&pg=2,610,0,0
+1755365756705,194,SearchShoePositive,200,OK,Users 1-5,text,true,,634192,113,5,5,https://www.n11.com/arama?q=ayakkabi,90,0,60
+1755365756414,616,SearchShoePagination,200,OK,Users 1-3,text,true,,607171,123,5,5,https://www.n11.com/arama?q=ayakkabı&pg=2,576,0,0
+1755365756615,709,SearchShoePagination,200,OK,Users 1-4,text,true,,607184,123,5,5,https://www.n11.com/arama?q=ayakkabı&pg=2,664,0,0
+1755365756736,637,SearchShoeSortByPrice,200,OK,Users 1-1,text,true,,593978,132,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW,595,0,0
+1755365756866,577,SearchShoeSortByPrice,200,OK,Users 1-2,text,true,,593281,132,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW,540,0,0
+1755365757031,509,SearchShoeSortByPrice,200,OK,Users 1-3,text,true,,593197,132,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW,468,0,0
+1755365756901,710,SearchShoePagination,200,OK,Users 1-5,text,true,,607157,123,5,5,https://www.n11.com/arama?q=ayakkabı&pg=2,662,0,0
+1755365757325,469,SearchShoeSortByPrice,200,OK,Users 1-4,text,true,,593230,132,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW,427,0,0
+1755365757541,391,SearchShoeModelAndNo,200,OK,Users 1-3,text,true,,598780,151,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW&m=Adidas&numara=42,317,0,0
+1755365757374,596,SearchShoeModelAndNo,200,OK,Users 1-1,text,true,,598700,151,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW&m=Adidas&numara=42,514,0,0
+1755365757445,540,SearchShoeModelAndNo,200,OK,Users 1-2,text,true,,598692,151,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW&m=Adidas&numara=42,487,0,0
+1755365757933,60,SearchWithInvalidRequestType,404,,Users 1-3,text,false,,113603,198,5,5,https://www.n11.com/aramaa,53,0,0
+1755365757993,14,SearchWithoutHeaders,403,Forbidden,Users 1-3,text,false,,5193,130,5,5,https://www.n11.com/aramaa?q=ayakkabi,14,0,0
+1755365757970,48,SearchWithInvalidRequestType,404,,Users 1-1,text,false,,113604,198,5,5,https://www.n11.com/aramaa,41,0,0
+1755365757986,43,SearchWithInvalidRequestType,404,,Users 1-2,text,false,,113604,198,5,5,https://www.n11.com/aramaa,36,0,0
+1755365758019,11,SearchWithoutHeaders,403,Forbidden,Users 1-1,text,false,,5193,130,5,5,https://www.n11.com/aramaa?q=ayakkabi,11,0,0
+1755365758007,23,SearchWithSpecialCharacters,499,OK,Users 1-3,,false,,1168,127,5,5,https://www.n11.com/aramaa?q=%20%20%2B%3Cscript%3E,23,0,0
+1755365758029,11,SearchWithoutHeaders,403,Forbidden,Users 1-2,text,false,,5193,130,5,5,https://www.n11.com/aramaa?q=ayakkabi,11,0,0
+1755365758031,28,SearchInvalidEndpoint,404,Not Found,Users 1-3,text,false,,113701,114,5,5,https://www.n11.com/aramaa?q=ayakkabi,21,0,0
+1755365758031,28,SearchWithSpecialCharacters,499,OK,Users 1-1,,false,,1168,127,5,5,https://www.n11.com/aramaa?q=%20%20%2B%3Cscript%3E,28,0,0
+1755365758041,58,SearchWithSpecialCharacters,499,OK,Users 1-2,,false,,1882,127,5,5,https://www.n11.com/aramaa?q=%20%20%2B%3Cscript%3E,58,0,0
+1755365758061,38,SearchInvalidEndpoint,404,Not Found,Users 1-1,text,false,,113701,114,5,5,https://www.n11.com/aramaa?q=ayakkabi,23,0,0
+1755365758101,45,SearchInvalidEndpoint,404,Not Found,Users 1-2,text,false,,113694,114,5,5,https://www.n11.com/aramaa?q=ayakkabi,23,0,0
+1755365758060,100,SearchEmpty,200,OK,Users 1-3,text,true,,241787,245,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,39,0,0
+1755365758060,39,SearchEmpty-0,301,Moved Permanently,Users 1-3,,true,,1181,105,5,5,https://www.n11.com/arama?q=,39,0,0
+1755365758099,61,SearchEmpty-1,200,OK,Users 1-3,text,true,,240606,140,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,47,0,0
+1755365758101,121,SearchEmpty,200,OK,Users 1-1,text,true,,241806,245,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,59,0,0
+1755365758101,59,SearchEmpty-0,301,Moved Permanently,Users 1-1,,true,,1181,105,5,5,https://www.n11.com/arama?q=,59,0,0
+1755365758160,62,SearchEmpty-1,200,OK,Users 1-1,text,true,,240625,140,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,30,0,0
+1755365758147,105,SearchEmpty,200,OK,Users 1-2,text,true,,241819,245,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,25,0,0
+1755365758147,25,SearchEmpty-0,301,Moved Permanently,Users 1-2,,true,,1181,105,5,5,https://www.n11.com/arama?q=,25,0,0
+1755365758172,80,SearchEmpty-1,200,OK,Users 1-2,text,true,,240638,140,5,5,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,61,0,0
+1755365757795,489,SearchShoeModelAndNo,200,OK,Users 1-4,text,true,,598736,151,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW&m=Adidas&numara=42,392,0,0
+1755365757612,693,SearchShoeSortByPrice,200,OK,Users 1-5,text,true,,593198,132,5,5,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW,619,0,0
+1755365758286,43,SearchWithInvalidRequestType,404,,Users 1-4,text,false,,113620,198,5,5,https://www.n11.com/aramaa,37,0,0
+1755365758161,182,SearchNonExisting,200,OK,Users 1-3,text,true,,166147,137,5,5,https://www.n11.com/arama?q=csdjhxasdqwrqr1jsafafpo35u9safhf,169,0,0
+1755365758330,16,SearchWithoutHeaders,403,Forbidden,Users 1-4,text,false,,5193,130,4,4,https://www.n11.com/aramaa?q=ayakkabi,16,0,0
+1755365758347,58,SearchWithSpecialCharacters,499,OK,Users 1-4,,false,,1169,127,4,4,https://www.n11.com/aramaa?q=%20%20%2B%3Cscript%3E,58,0,0
+1755365758253,162,SearchNonExisting,200,OK,Users 1-2,text,true,,166148,137,4,4,https://www.n11.com/arama?q=csdjhxasdqwrqr1jsafafpo35u9safhf,152,0,0
+1755365758223,204,SearchNonExisting,200,OK,Users 1-1,text,true,,166144,137,3,3,https://www.n11.com/arama?q=csdjhxasdqwrqr1jsafafpo35u9safhf,193,0,0
+1755365758407,35,SearchInvalidEndpoint,404,Not Found,Users 1-4,text,false,,113701,114,2,2,https://www.n11.com/aramaa?q=ayakkabi,28,0,0
+1755365758442,67,SearchEmpty,200,OK,Users 1-4,text,true,,241787,245,2,2,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,30,0,0
+1755365758442,30,SearchEmpty-0,301,Moved Permanently,Users 1-4,,true,,1181,105,2,2,https://www.n11.com/arama?q=,30,0,0
+1755365758472,37,SearchEmpty-1,200,OK,Users 1-4,text,true,,240606,140,2,2,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,22,0,0
+1755365758510,179,SearchNonExisting,200,OK,Users 1-4,text,true,,166124,137,2,2,https://www.n11.com/arama?q=csdjhxasdqwrqr1jsafafpo35u9safhf,168,0,0
+1755365758306,433,SearchShoeModelAndNo,200,OK,Users 1-5,text,true,,598695,151,1,1,https://www.n11.com/arama?q=ayakkabı&srt=PRICE_LOW&m=Adidas&numara=42,392,0,0
+1755365758740,52,SearchWithInvalidRequestType,404,,Users 1-5,text,false,,113604,198,1,1,https://www.n11.com/aramaa,48,0,0
+1755365758793,12,SearchWithoutHeaders,403,Forbidden,Users 1-5,text,false,,5193,130,1,1,https://www.n11.com/aramaa?q=ayakkabi,12,0,0
+1755365758806,38,SearchWithSpecialCharacters,499,OK,Users 1-5,,false,,1168,127,1,1,https://www.n11.com/aramaa?q=%20%20%2B%3Cscript%3E,38,0,0
+1755365758845,34,SearchInvalidEndpoint,404,Not Found,Users 1-5,text,false,,113701,114,1,1,https://www.n11.com/aramaa?q=ayakkabi,26,0,0
+1755365758880,71,SearchEmpty,200,OK,Users 1-5,text,true,,241791,245,1,1,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,25,0,0
+1755365758880,25,SearchEmpty-0,301,Moved Permanently,Users 1-5,,true,,1181,105,1,1,https://www.n11.com/arama?q=,25,0,0
+1755365758905,46,SearchEmpty-1,200,OK,Users 1-5,text,true,,240610,140,1,1,https://www.n11.com/?isRelaunchItem=true&fillFavouriteIcon=true,30,0,0
+1755365758951,141,SearchNonExisting,200,OK,Users 1-5,text,true,,166183,137,1,1,https://www.n11.com/arama?q=csdjhxasdqwrqr1jsafafpo35u9safhf,130,0,0

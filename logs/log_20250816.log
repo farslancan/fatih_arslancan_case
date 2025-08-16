@@ -1,0 +1,20 @@
+===== Run started 2025-08-16 01:31:22 =====
+2025-08-16 01:31:22 [INFO] ✅ Suite setup started
+2025-08-16 01:31:48 [INFO] ✅ Suite finished
+===== Run finished 2025-08-16 01:31:48 =====
+===== Run started 2025-08-16 01:35:58 =====
+2025-08-16 01:35:58 [INFO] ✅ Suite setup started
+===== Run started 2025-08-16 01:35:58 =====
+2025-08-16 01:35:58 [INFO] ✅ Suite setup Done
+===== Run started 2025-08-16 01:35:58 =====
+2025-08-16 01:35:58 [INFO] ✅ Test setup started
+===== Run started 2025-08-16 01:36:23 =====
+2025-08-16 01:36:23 [INFO] ✅ Test Teardown started
+2025-08-16 01:36:23 [ERROR] ❌ Test FAILED: TC-FE01: Insider Careers - Search QA Jobs | 'Account Director' does not contain 'Quality Assurance'
+===== Run started 2025-08-16 01:36:23 =====
+2025-08-16 01:36:23 [INFO] ✅ Test Teardown started
+===== Run started 2025-08-16 01:36:23 =====
+2025-08-16 01:36:23 [INFO] ✅ Suite Teardown started
+===== Run finished 2025-08-16 01:36:23 =====
+===== Run started 2025-08-16 01:36:30 =====
+2025-08-16 01:36:30 [INFO] ✅ Suite Teardown Done

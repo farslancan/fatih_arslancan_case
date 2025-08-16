@@ -7,11 +7,6 @@ venv/
 
 # Robot Framework outputs
 results/
-logs/
-output.xml
-report.html
-log.html
-*.png
 *.webm
 *.mp4
 *.gif
